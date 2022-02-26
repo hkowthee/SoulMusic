@@ -6,9 +6,9 @@ import random
 
 from flask import Flask, render_template, request, redirect
 
-client_id = '2e8136a186b8455f8d5a7b443896a69d'
-client_seccret = 'a48e774a2e8042eb9e2b81550d71565a'
-redirect_uri ='https://github.com/hkowthee'
+client_id = 'SECRET_ID'
+client_seccret = 'SECRET_KEY'
+redirect_uri ='ANY_REDIRECT_URL'
 
 scope = 'user-library-read user-top-read playlist-modify-public user-follow-read'
 
